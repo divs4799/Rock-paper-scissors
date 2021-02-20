@@ -9,3 +9,11 @@
     
     flex-wrap: wrap;
 }
+#header{
+    width: 700px;
+    margin: auto;
+}
+.pointheader{
+position:inline;
+left: 0rem;
+}
