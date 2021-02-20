@@ -83,10 +83,13 @@ body{
     margin-top: -10px;
   }
   /* Sides  */
+  #header{
+    width: 700px;
+    margin: auto;
+  }
   .pointheader{
     width: 200px;
     position: relative;
-    left: 28rem;
      display: inline-block; 
      opacity: 1;   /* do inline-block from none*/
     color: white;
@@ -95,6 +98,9 @@ body{
     margin: 34px 55px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 600;
+  }
+  #comp{
+    left: 20rem;
   }
   /* buttons for game */
   #buttons{
