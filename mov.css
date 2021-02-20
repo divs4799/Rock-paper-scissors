@@ -1,0 +1,11 @@
+#main-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: tomato;
+}
+.container{
+    width: max-content;
+    
+    flex-wrap: wrap;
+}
