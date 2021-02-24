@@ -1,7 +1,11 @@
+html{
+    font-size: 15px;
+}
 #main-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* background-color: tomato; */
    
 }
 .container{
@@ -10,23 +14,40 @@
     flex-wrap: wrap;
 }
 #header{
-    width: 700px;
+    width: 41rem;
     margin: auto;
 }
 .pointheader{
 position:inline;
-left: 0rem;
+margin: 1rem 5rem;
+width: 10rem;
+}
+#after{
+position: relative;
+top: 11rem;
+right: 9rem;
 }
 #comp{
     left: 0rem;
 }
-#after{
-    position: relative;
-    top: 200px;
+.btn1{
+    right: 3rem;
+}
+.btn2{
+    bottom: 18rem;
+    left: 9rem;
 }
 .right{
     left: 0rem;
 }
 .left{
     left: 0rem;
+}
+#myBtn{
+    margin: 100% auto;
+    float: none;
+    
+    position: relative;
+    left: 18.5rem;
+    top: 6rem;
 }
