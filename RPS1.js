@@ -34,11 +34,11 @@ function play(){
     computer = selector[select];
     player = this.id;
 
-    $("#buttons").fadeOut(700);
+    $("#buttons").fadeOut(1000);
     setTimeout(function(){
-        $("#buttons2").fadeIn(700);
-        $("#header").fadeIn(700);
-    },700);
+        $("#buttons2").fadeIn(1000);
+        $("#header").fadeIn(1000);
+    },1000);
     
     
 var playerbutton = player + "2";
