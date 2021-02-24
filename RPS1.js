@@ -45,15 +45,18 @@ var playerbutton = player + "2";
  $(".btn1")[0].setAttribute("Id",playerbutton);
  var compbutton = computer +"2";
  $(".btn2")[0].setAttribute("Id",compbutton);
-
+ 
+ check(computer,player);
+ 
  setTimeout(function(){
     $("#after").css("opacity","1");
+    $("#scr").text(point);
 },2000);
 
-check(computer,player);
+
 console.log("after ");
 console.log(point);
-$("#scr").text(point);
+
    
 }
 

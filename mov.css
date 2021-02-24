@@ -1,5 +1,5 @@
 html{
-    font-size: 15px;
+    font-size: 14px;
 }
 #main-container{
     display: flex;
@@ -7,6 +7,16 @@ html{
     flex-wrap: wrap;
     /* background-color: tomato; */
    
+}
+#buttons{
+    
+    
+    width: 40rem;
+   
+    
+  }
+#buttons2{
+    width: 100%;
 }
 .container{
     width: max-content;
@@ -25,18 +35,18 @@ width: 10rem;
 #after{
 position: relative;
 top: 11rem;
-right: 9rem;
+/* right: 9rem; */
 }
 #comp{
     left: 0rem;
 }
-.btn1{
+/* .btn1{
     right: 3rem;
 }
 .btn2{
     bottom: 18rem;
     left: 9rem;
-}
+} */
 .right{
     left: 0rem;
 }

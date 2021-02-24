@@ -129,7 +129,7 @@ body{
     height: 11rem;
     border: 22px solid;
     cursor: pointer;
-    margin: 35px;
+    margin: 2.05rem;
     display: inline; 
   }
   .rock{
@@ -163,6 +163,7 @@ body{
   }
   #paper2{
     background: url(images/icon-paper.svg) no-repeat center;
+    background-size: 2.94rem 2.94rem;
     background-color: whitesmoke;
     border: solid 1.17rem hsl(230, 89%, 65%);
     box-shadow: 0px 0.35rem 0px 0.117rem hsl(230deg 89% 60%);
@@ -173,6 +174,7 @@ body{
   }
   #scissors2{
     background: url(images/icon-scissors.svg)no-repeat center;
+    background-size: 2.94rem 2.94rem;
     background-color: whitesmoke;
     border: solid 1.17rem hsl(40, 84%, 53%);
     box-shadow: 0px 0.35rem 0px 0.117rem hsl(39deg 89% 49%);
@@ -182,6 +184,7 @@ body{
   }
   #rock2{
     background: url(images/icon-rock.svg)no-repeat center;
+    background-size: 2.94rem 2.94rem;
     background-color: whitesmoke;
     border: solid 1.17rem hsl(349, 70%, 56%);
     box-shadow: 0px 0.35rem 0px 0.117rem hsl(349, 71%, 52%);

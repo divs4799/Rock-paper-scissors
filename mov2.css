@@ -1,0 +1,10 @@
+html{
+    font-size:7px;
+}
+#buttons{
+    background-color: white;
+}
+#buttons2{
+    /* background-color: yellow; */
+    width: 100%;
+}
