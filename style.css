@@ -108,6 +108,7 @@ body{
     height: 400px;
     width: 550px;
     margin: 1rem auto;
+    transition: all 0.3s;
     
   }
   .playerbtn{
@@ -177,6 +178,7 @@ body{
     /* left: 0rem; */
   } 
   .left{
+    transition: all 0.3s;
     animation-name: leftshift;
     animation-duration: 2s;
     animation-fill-mode: both;
@@ -199,6 +201,7 @@ body{
   #after{
     position: relative;
     display: none;
+    transition: all 0.3s;
   }
 
   #againbtn{
