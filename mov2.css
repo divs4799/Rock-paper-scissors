@@ -2,9 +2,17 @@ html{
     font-size:7px;
 }
 #buttons{
-    background-color: white;
+    /* background-color: white; */
+    width: 100%;
+    text-align: center;
+}
+#rock{
+    right: 2rem;
 }
 #buttons2{
     /* background-color: yellow; */
     width: 100%;
+}
+#myBtn{
+    top: 20rem;
 }
