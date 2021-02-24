@@ -44,10 +44,10 @@ right: 9rem;
     left: 0rem;
 }
 #myBtn{
-    margin: 100% auto;
+    margin: auto;
     float: none;
     
     position: relative;
-    left: 18.5rem;
-    top: 6rem;
+    left: 19rem;
+    top: 12rem;
 }

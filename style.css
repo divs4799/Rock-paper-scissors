@@ -3,7 +3,7 @@ html{
 }
 body{
     
-    height: 700px;
+    height: 100%;
     background: rgba(32, 55, 87, 1.0);
     background: -webkit-radial-gradient(center, rgba(32, 55, 87, 1.0), rgba(20, 22, 57, 1.0));
     background: -moz-radial-gradient(center, rgba(32, 55, 87, 1.0), rgba(20, 22, 57, 1.0));
@@ -64,35 +64,36 @@ body{
     align-items: center;  
 }
 #headimg{
-    margin-left: 20px;
+    margin-left: 1.17rem;
+    width: 9.52rem;
   }
   #score{
       background-color: whitesmoke;
-    width: 150px;
+    width: 8rem;
       float: right ;
       display: flex;
       align-items: center;
       flex-direction: column;
       color: hsl(229, 64%, 46%);
       font-family: 'Barlow Semi Condensed', sans-serif;
-      font-size: 20px;  
-      padding-top: 10px;
+      font-size: 1.17rem;  
+      padding-top: 0.05rem;
       margin: 0.6rem 2rem;
       border-radius: 20px;
   }
   #scr{
-    font-size: 80px;
+    font-size: 4.7rem;
     color: hsl(229, 25%, 31%);
     margin-top: -10px;
   }
   /* Sides  */
   #header{
-    width: 650px;
+    width: 38.23rem;
     margin: auto;
     display: none;
   }
   .pointheader{
-    width: 200px;
+    width: 11.76rem;
     position: relative;
      display: inline-block; 
     opacity: 1;   /* do inline-block from none*/
@@ -107,8 +108,8 @@ body{
   /* buttons for game */
   #buttons{
     
-    height: 400px;
-    width: 550px;
+    height: 23.52rem;
+    width: 32.35rem;
     margin: 1rem auto;
     transition: all 0.3s;
     
@@ -132,22 +133,22 @@ body{
     display: inline; 
   }
   .rock{
-    border: solid 20px hsl(349, 70%, 56%);
-    box-shadow: 0px 6px 0px 2px hsl(349, 71%, 52%);
+    border: solid 1.17rem hsl(349, 70%, 56%);
+    box-shadow: 0px 0.35rem 0px 0.117rem hsl(349, 71%, 52%);
     position: relative;
     right:-8rem;
     transition: left 0.3s;
    }
   .paper{
-    border: solid 20px hsl(230, 89%, 65%);
-    box-shadow: 0px 6px 0px 2px hsl(230deg 89% 60%);
+    border: solid 1.17rem hsl(230, 89%, 65%);
+    box-shadow: 0px 0.35rem 0px 0.117rem hsl(230deg 89% 60%);
     position: relative;
     left: 0px;
     transition: all 0.3s;
   }
   .scissors{
-    border: solid 20px hsl(40, 84%, 53%);
-    box-shadow: 0px 6px 0px 2px hsl(39, 89%, 49%);
+    border: solid 1.17rem hsl(40, 84%, 53%);
+    box-shadow: 0px 0.35rem 0px 0.117rem hsl(39, 89%, 49%);
     position: relative;
     left: 0px;
     transition: all 0.3s;
@@ -163,8 +164,8 @@ body{
   #paper2{
     background: url(images/icon-paper.svg) no-repeat center;
     background-color: whitesmoke;
-    border: solid 20px hsl(230, 89%, 65%);
-    box-shadow: 0px 6px 0px 2px hsl(230deg 89% 60%);
+    border: solid 1.17rem hsl(230, 89%, 65%);
+    box-shadow: 0px 0.35rem 0px 0.117rem hsl(230deg 89% 60%);
     position: relative;
     /* left: 0rem; */
     margin: 3.5rem;
@@ -173,8 +174,8 @@ body{
   #scissors2{
     background: url(images/icon-scissors.svg)no-repeat center;
     background-color: whitesmoke;
-    border: solid 20px hsl(40, 84%, 53%);
-    box-shadow: 0px 6px 0px 2px hsl(39, 89%, 49%);
+    border: solid 1.17rem hsl(40, 84%, 53%);
+    box-shadow: 0px 0.35rem 0px 0.117rem hsl(39deg 89% 49%);
     position: relative;
     /* left: 0rem; */
     margin: 3.5rem;
@@ -182,8 +183,8 @@ body{
   #rock2{
     background: url(images/icon-rock.svg)no-repeat center;
     background-color: whitesmoke;
-    border: solid 20px hsl(349, 70%, 56%);
-    box-shadow: 0px 6px 0px 2px hsl(349, 71%, 52%);
+    border: solid 1.17rem hsl(349, 70%, 56%);
+    box-shadow: 0px 0.35rem 0px 0.117rem hsl(349, 71%, 52%);
     position: relative;
     margin: 3.5rem;
     /* left: 0rem; */
@@ -221,17 +222,17 @@ body{
     width: 10rem;
     border-radius: 10px;
     height: 3rem;
-    font-size: 20px;
+    font-size: 1.17rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 700;
-    box-shadow : 0px 5px 10px rgba(darken(dodgerblue, 40%));
+    box-shadow : 0px 0.29rem 0.59rem rgba(darken(dodgerblue, 40%));
     transition : all 0.3s;
     cursor : pointer;
     border-bottom :4px solid lighten(gray, 70%);
     transition: all 0.3s;
   }
   #againbtn:hover{
-  box-shadow : 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+  box-shadow : 0px 0.88rem 1.47rem -0.29rem rgba(darken(dodgerblue, 40%));
   transform : scale(1.03);
   }
 #againbtn:active{
@@ -259,7 +260,7 @@ body{
   h2{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.35rem;
     color:white;
     margin: 0px 0px;
   }
